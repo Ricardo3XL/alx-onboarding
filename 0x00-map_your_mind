@@ -1,0 +1,86 @@
+# alx-onboarding
+
+
+// Algo code
+
+Int n,i,sum;
+Sum = 0;
+write('How many do you want the sums of the 
+squares of integers? ');
+Read(n);
+Sum <-- 0;
+For i ranging from 1 to n;
+Sum <-- sum + i*i;
+Endfor
+write('The sum of the squares of integers 
+       from 1 to ',N,' is ',sum);
+
+
+
+
+// Pseudo code 
+
+Read n 
+sum <— 0 
+For i ranging from 1 to n 
+sum <— sum + i*i 
+end for 
+Write sum
+
+
+1) 
+
+// ALGO 
+
+int num1, num2, num3;
+cin>> num1>>num2>>num3;
+if(num1 < num2 && num2 < num3 && num1 < num3)
+{ cout<<num1<<" "<<num2<<" "<<num3; }
+else if(num1 < num2 && num2 > num3 && num1 < num3) 
+{ cout<<num1<<" "<<num3<<" "<<num2; }
+else if(num1 > num2 && num2 < num3 && num1 < num3) 
+{ cout<<num2<<" "<<num1<<" "<<num3; }
+else if(num1 > num2 && num2 < num3 && num1 > num3) 
+{ cout<<num2<<" "<<num3<<" "<<num1; }
+else if(num1 < num2 && num2 > num3 && num1 > num3) 
+{ cout<<num3<<" "<<num1<<" "<<num2; }
+else if(num1 > num2 && num2 > num3 && num1 > num3) 
+{ cout<<num3<<" "<<num2<<" "<<num1; }
+
+// pseudo code 
+
+Pseudo Code:
+Read num1, num2, num3 
+If (num1 < num2 < num3)
+Write num1 , num2, num3 
+else If (num1 < num3 < num2)
+Write num1 , num2, num3 
+else If (num2 < num1 < num3)
+Write num2 , num1, num3 
+else If (num2 < num3 < num1)
+Write num2 , num3, num1 
+else If (num3 < num1 < num2)
+Write num3 , num1, num2 
+else If (num3 < num2< num1)
+Write num3 , num2, num1
+
+
+
+
+2) 
+
+int x, sum;
+sum = 0; cin>>x;
+while(x >= 0)
+{ sum=sum+x
+cin>>x; }
+
+// Pseudo code 
+
+Read x
+Set sum to 0; While(x >= 0)
+Set sum to x + sum Read x
+
+
+
+
